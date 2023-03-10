@@ -1,6 +1,6 @@
 {
-    "name": "vartruexuan/php-package",
-    "description": "A PHP package template repository.",
+    "name": "vartruexuan/yii-filesystem-cos",
+    "description": "yii2 filesystem 腾讯云cos",
     "license": "MIT",
     "authors": [
         {
@@ -8,8 +8,16 @@
             "email": "name@domain.com"
         }
     ],
+    "keywords": [
+        "yii2",
+        "filesystem",
+        "files",
+        "cos"
+    ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "creocoder/yii2-flysystem": "^1.1",
+        "freyo/flysystem-qcloud-cos-v5": "^2.2"
     },
     "require-dev": {
         "brainmaestro/composer-git-hooks": "^2.8",
@@ -21,18 +29,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\Package\\": "src"
+            "Vartruexuan\\Yii\\Filesystem\\Cos\\": "src"
         }
     },
     "extra": {
         "hooks": {
             "pre-commit": [
-                "composer check-style",
-                "composer test"
+
             ],
             "pre-push": [
-                "composer test",
-                "composer check-style"
+
             ]
         }
     },
