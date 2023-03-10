@@ -1,6 +1,6 @@
 <div style="text-align: center"> <h1>yii-filesystem-cos</h1> </div>  
 
-<a href="https://packagist.org/packages/vartruexuan/yii-filesystem-cos" rel="nofollow"><img src="https://badgen.net/github/tag/vartruexuan/yii-filesystem-cos" alt="Latest Version" data-canonical-src="https://badgen.net/github/tag/vartruexuan/yii-filesystem-cos" style="max-width: 100%;"></a>
+<a href="https://packagist.org/packages/vartruexuan/yii-filesystem-cos" rel="nofollow"><img src="https://badgen.net/github/release/vartruexuan/yii-filesystem-cos" alt="Latest Version" data-canonical-src="https://badgen.net/github/release/vartruexuan/yii-filesystem-cos" style="max-width: 100%;"></a>
 <a href="https://www.php.net" rel="nofollow"><img src="https://img.shields.io/badge/php-%3E=7.4-brightgreen.svg?maxAge=2592000" alt="Php Version" data-canonical-src="https://img.shields.io/badge/php-%3E=7.4-brightgreen.svg?maxAge=2592000" style="max-width: 100%;"></a>
 
 # 概述
